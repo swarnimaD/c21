@@ -26,6 +26,7 @@ function draw() {
 
 if(IsTouching(movingRect,wall)) {
   textSize(20);
+  movingRect.shapeColor = "yellow";
   text("Touching!!", 300,400);
 }
  
